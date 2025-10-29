@@ -48,12 +48,12 @@ if st.button('Diabetes Test Result'):
     prediction_result = diabetes_prediction(input_data)
 
     if prediction_result == 'The person is not diabetic':
+        st.success(prediction_result)
+        st.balloons()   
+    else:
         st.error(prediction_result)
         st.info("Please consult with a healthcare professional for proper diagnosis and treatment.")
         
-    else:
-        st.success(prediction_result)
-        st.balloons()
         
 with st.expander("📊 About this Model"):
     st.write("""
