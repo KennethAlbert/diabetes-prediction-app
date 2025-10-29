@@ -8,7 +8,7 @@ A machine learning web application that predicts the likelihood of diabetes base
 
 ## 🚀 Live Demo
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-name.streamlit.app/)
+[![Streamlit App](https://diabetes-prediction-app-gkd9j8d2hmpnoev4cuuvtn.streamlit.app)
 
 ## 📊 Model Performance
 
