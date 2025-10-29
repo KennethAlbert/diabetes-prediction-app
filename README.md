@@ -7,9 +7,7 @@ A machine learning web application that predicts the likelihood of diabetes base
 **🎯 SDG Alignment:** This project aligns with **SDG 3: Good Health and Well-being** by providing an accessible tool for early diabetes risk assessment.
 
 ## 🚀 Live Demo
-
-[![Streamlit App](https://diabetes-prediction-app-gkd9j8d2hmpnoev4cuuvtn.streamlit.app/)
-
+https://diabetes-prediction-app-gkd9j8d2hmpnoev4cuuvtn.streamlit.app/
 ## 📊 Model Performance
 
 | Metric | Score |
@@ -53,7 +51,7 @@ diabetes-prediction-app/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/diabetes-prediction-app.git
+   git clone https://github.com/KennethAlbert/diabetes-prediction-app.git
    cd diabetes-prediction-app
    ```
 
@@ -156,9 +154,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For questions or support:
 
-- 📧 Email: your-email@example.com
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/diabetes-prediction-app/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/yourusername/diabetes-prediction-app/discussions)
+- 📧 Email:gichuka@gmail.com
+- 📧 Email:kenneth.a.gichuka@gmail.com
 
 ---
 
