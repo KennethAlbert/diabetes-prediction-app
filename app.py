@@ -48,10 +48,27 @@ if st.button('Diabetes Test Result'):
     prediction_result = diabetes_prediction(input_data)
 
     if prediction_result == 'The person is not diabetic':
-        print("Accuracy score on training data: 0.786644951140065")
-        print("Accuracy score on testing data: 0.7727272727272727")
         st.success(prediction_result)
+        st.balloons()
+
     else:
-        print("Accuracy score on training data: 0.786644951140065")
-        print("Accuracy score on testing data: 0.7727272727272727")
         st.error(prediction_result)
+        st.info("Please consult with a healthcare professional for proper diagnosis and treatment.")
+with st.expander("📊 About this Model"):
+    st.write("""
+        **Model Performance:**
+        - Training Accuracy: 78.66%
+        - Testing Accuracy: 77.27%
+        
+        **Model Features:**
+        - Pregnancies
+        - Glucose Level
+        - Blood Pressure
+        - Skin Thickness
+        - Insulin Level
+        - BMI
+        - Diabetes Pedigree Function
+        - Age
+        
+        **Note:** This is a predictive model for educational purposes. Always consult healthcare professionals for medical diagnosis.
+        """)
