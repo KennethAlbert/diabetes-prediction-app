@@ -48,6 +48,10 @@ if st.button('Diabetes Test Result'):
     prediction_result = diabetes_prediction(input_data)
 
     if prediction_result == 'The person is not diabetic':
+        print("Accuracy score on training data: 0.786644951140065")
+        print("Accuracy score on testing data: 0.7727272727272727")
         st.success(prediction_result)
     else:
+        print("Accuracy score on training data: 0.786644951140065")
+        print("Accuracy score on testing data: 0.7727272727272727")
         st.error(prediction_result)
