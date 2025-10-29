@@ -7,8 +7,8 @@ import joblib
 
 # Load the saved scaler and classifier
 try:
-    scaler = joblib.load('scaler.pkl')
-    classifier = joblib.load('classifier.pkl')
+    scaler = joblib.load('models/scaler.pkl')
+    classifier = joblib.load('models/classifier.pkl')
 except FileNotFoundError:
     st.error("Scaler and classifier files not found. Please run the saving cell first.")
     st.stop()
