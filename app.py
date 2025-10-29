@@ -51,8 +51,8 @@ if st.button('Diabetes Test Result'):
         st.success(prediction_result)
         st.balloons()   
     else:
-        st.error(prediction_result)
-        st.info("Please consult with a healthcare professional for proper diagnosis and treatment.")
+        st.error(f"⚠️ {prediction_result}") 
+        st.info("ℹ️ Please consult with a healthcare professional for proper diagnosis and treatment.")
         
         
 with st.expander("📊 About this Model"):
